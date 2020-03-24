@@ -52,7 +52,3 @@ do
 done
 
 echo "Congratulations!"
-
-
-
-
