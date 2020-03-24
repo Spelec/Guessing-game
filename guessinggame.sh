@@ -36,7 +36,7 @@ function enter_number {
 echo "Guess the number of files in current directory:"
 enter_number
 
-#true number of files in current directory (and subdirectories included)
+#true number of files in current directory (subdirectories included)
 N=$(ls -Rl|grep "^-.*"|wc -l)
 
 #guess evaluation
